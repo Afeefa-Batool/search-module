@@ -1,0 +1,139 @@
+.bussines {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../images/1.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 15px;
+  position: relative;
+}
+.bussines h2 {
+  text-align: center;
+  color: white;
+}
+.bussines .get-listed {
+  bottom: 0;
+  position: absolute;
+  font-size: 16px;
+}
+.listed-busines{
+  color: aqua;
+}
+.bussines form {
+  width: 100%;
+  max-width: 1290px;
+}
+
+.bussines form .inner-form {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px 47px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bussines form .inner-form .input-field {
+  margin-right: 16px;
+  height: 62px;
+}
+
+.bussines form .inner-form .input-field input {
+  height: 75%;
+  background: #fff;
+  border-radius: 1px;
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 10px 32px;
+  font-size: 18px;
+}
+.bussines form .inner-text {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bussines form .inner-form .input-field input.placeholder {
+  color: #9a9a9a;
+  font-size: 20px;
+}
+
+.bussines form .inner-form .input-field input:hover,
+.bussines form .inner-form .input-field input:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+.bussines form .inner-form .input-field.first-wrap {
+  flex-grow: 1;
+}
+
+.bussines form .inner-form .input-field.second-wrap {
+  width: 32.77%;
+}
+
+.bussines form .inner-form .input-field.third-wrap {
+  width: 180px;
+  margin-right: 0;
+}
+
+.bussines form .inner-form .input-field.third-wrap .btn-search {
+  height: 75%;
+  width: 100%;
+  background: #4272d7;
+  white-space: nowrap;
+  border-radius: 0.5px;
+  font-size: 20px;
+  color: #fff;
+  transition: all 0.2s ease-out, color 0.2s ease-out;
+  border: 0;
+  cursor: pointer;
+}
+
+.bussines form .inner-form .input-field.third-wrap .btn-search:hover {
+  background: #2d62d3;
+}
+
+@media (max-width: 576px) {
+  .bussines form legend {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .bussines form .inner-form {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .bussines form .inner-text{
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .bussines form .inner-form .input-field {
+    margin-right: 0;
+  }
+  .bussines form .inner-form .input-field input {
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+  .bussines form .inner-form .input-field.first-wrap {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .bussines form .inner-form .input-field.second-wrap {
+    width: calc(50% - 10px);
+    min-width: auto;
+  }
+  .bussines form .inner-form .input-field.third-wrap {
+    width: calc(50% - 10px);
+  }
+  .bussines form .inner-form .input-field.third-wrap .btn-search {
+    font-size: 16px;
+  }
+}
